@@ -1,0 +1,67 @@
+11:25:47 INFO  : Saving repository preferences.
+11:25:47 INFO  : Reading in cores from local repositories: 
+		 Y:\Code\school\330\my330\ip_repository\ip_repository
+11:25:47 INFO  : Cleaning BSP projects in the workspace.
+11:25:49 INFO  : Saving repository preferences.
+11:26:58 WARN  :  [Hsm 55-1607] Software Repository Paths c:/Users/hutch/ZYBO/digilent_demoUARTBluetooth/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and Y:/Code/school/330/my330/EE330_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths c:/Users/hutch/ZYBO/digilent_demoUARTBluetooth/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and Y:/Code/school/330/my330/EE330_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+11:26:59 WARN  :  [Hsm 55-1607] Software Repository Paths c:/Users/hutch/ZYBO/digilent_demoUARTBluetooth/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and Y:/Code/school/330/my330/EE330_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths c:/Users/hutch/ZYBO/digilent_demoUARTBluetooth/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and Y:/Code/school/330/my330/EE330_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+11:30:16 INFO  : FPGA configured successfully with bitstream "Y:/Code/school/330/my330/EE330_hw_platform_0/system_wrapper.bit"
+11:32:57 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:585)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:622)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:674)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:475)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+11:33:23 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:585)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:622)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:674)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:475)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+11:35:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:39:31 INFO  : Restoring local repository preferences: 
+		 Y:\Code\school\330\my330\ip_repository\ip_repository
+11:39:38 WARN  :  [Hsm 55-1607] Software Repository Paths c:/Users/hutch/ZYBO/digilent_demoUARTBluetooth/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and Y:/Code/school/330/my330/EE330_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths c:/Users/hutch/ZYBO/digilent_demoUARTBluetooth/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and Y:/Code/school/330/my330/EE330_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+11:39:39 WARN  :  [Hsm 55-1607] Software Repository Paths c:/Users/hutch/ZYBO/digilent_demoUARTBluetooth/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and Y:/Code/school/330/my330/EE330_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths c:/Users/hutch/ZYBO/digilent_demoUARTBluetooth/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and Y:/Code/school/330/my330/EE330_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+11:39:52 INFO  : FPGA configured successfully with bitstream "Y:/Code/school/330/my330/EE330_hw_platform_0/system_wrapper.bit"
+11:40:54 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Project ecen_330 does not exist. Please check that your launch configuration specifies a valid project in your workspace.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:477)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+11:41:37 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Users\hutch\ZYBO\EE330_Fall2015_EE390_Winter2016\EE330_Fall2015_EE390_Winter2016_Final_SW\Consolidated_330_SW_bsp\system.mss
+11:41:37 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Users\hutch\ZYBO\EE330_Fall2015_EE390_Winter2016\EE330_Fall2015_EE390_Winter2016_Final_SW\Consolidated_330_SW_bsp\system.mss
+11:42:11 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Users\hutch\ZYBO\EE330_Fall2015_EE390_Winter2016\EE330_Fall2015_EE390_Winter2016_Final_SW\Consolidated_330_SW_bsp\system.mss
+11:42:11 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Users\hutch\ZYBO\EE330_Fall2015_EE390_Winter2016\EE330_Fall2015_EE390_Winter2016_Final_SW\Consolidated_330_SW_bsp\system.mss
+11:42:11 WARN  :  [Hsm 55-1559] Software Design already exists with Name C:\Users\hutch\ZYBO\EE330_Fall2015_EE390_Winter2016\EE330_Fall2015_EE390_Winter2016_Final_SW\Consolidated_330_SW_bsp\system.mss
+11:42:31 INFO  : ps7_init is completed.
+11:42:31 INFO  : ps7_post_config is completed.
+11:42:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:42:31 ERROR : Port COM4 is already in use.
